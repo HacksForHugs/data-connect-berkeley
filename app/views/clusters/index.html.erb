@@ -1,0 +1,7 @@
+<% @clusters.each do |cluster|%>
+<%= link_to cluster_path cluster.title %>
+<%= link_to cluster.title, cluster_url(cluster) %>
+</br>
+<% end %>
+
+
